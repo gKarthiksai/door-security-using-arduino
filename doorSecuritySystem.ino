@@ -1,7 +1,7 @@
 #include <Servo.h>
 #include <Keypad.h>
 Servo ServoMotor;
-char* password = "123";
+char* password = "123"; // change the password here ( Password can be numeric, alphanumeric and alphabetic ).
 int position = 0;
 const byte ROWS = 4;
 const byte COLS = 4;
